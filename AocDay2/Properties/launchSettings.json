@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AocDay2": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\Tolik\\OneDrive\\Documents\\Projects\\AdventOfCode\\AocDay2\\aoc2-input.txt\""
+    }
+  }
+}
