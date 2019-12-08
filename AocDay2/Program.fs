@@ -21,7 +21,7 @@ let execute nums =
         | 2 when canExecute -> transform (*)
         | 99 -> Result.Ok nums
         | num when canExecute -> num |> sprintf "%i is not a valid command" |> Result.Error
-        | _ -> "The input is not of a valid lenght" |> Result.Error
+        | _ -> "The input has invalid length" |> Result.Error
 
     execute' 0 nums
 
