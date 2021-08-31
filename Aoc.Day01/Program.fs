@@ -1,13 +1,33 @@
-// Learn more about F# at http://docs.microsoft.com/dotnet/fsharp
-
 open System
+open System.IO
 
-// Define a function to construct a message to print
-let from whom =
-    sprintf "from %s" whom
+let strToInt (str : string) =
+    let success, num = Int32.TryParse(str)
+    if success then Some num else None
 
+let fuel1 mass =
+    mass / 3 - 2
+ 
+let fuel2 mass =
+    mass
+    |> List.unfold (fun mass -> let fuel = fuel1 mass in if fuel < 0 then None else Some (fuel, fuel))
+    |> List.sum
+
+let getInput file =
+    file
+    |> File.ReadAllLines
+    |> List.ofArray
+    |> List.map strToInt
+    |> List.choose id
+    
 [<EntryPoint>]
 let main argv =
-    let message = from "F#" // Call the function
-    printfn "Hello world %s" message
-    0 // return an integer exit code
+    match argv with
+    | [| file |] ->
+        let input = getInput file
+        printfn "%d" (input |> List.sumBy fuel1)
+        printfn "%d" (input |> List.sumBy fuel2)
+        0
+    | _ ->
+        printfn "Usage: Aoc.Day1 file"
+        1
