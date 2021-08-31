@@ -19,9 +19,13 @@ bld/
 [Oo]bj/
 [Ll]og/
 
+# Advent of Code input files
+**/input.txt
+
 # Visual Studio and Visual Studio Code cache/options directory
 .vs/
 .vscode/
+.ionide/
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
