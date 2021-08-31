@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc.Day01", "Aoc.Day01\Aoc.Day01.fsproj", "{F8874C8D-4974-4CA9-ABEC-266A391FCD6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{07D6669C-2612-4C00-A614-BFC95FFD538A}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8874C8D-4974-4CA9-ABEC-266A391FCD6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8874C8D-4974-4CA9-ABEC-266A391FCD6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8874C8D-4974-4CA9-ABEC-266A391FCD6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8874C8D-4974-4CA9-ABEC-266A391FCD6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58209B05-8594-4A47-9FBF-86E716FAEF93}
+	EndGlobalSection
+EndGlobal
