@@ -198,5 +198,5 @@ let main argv =
         |> List.iter (printfn "%d")
         0
     | _ ->
-        printfn "Usage: Aoc.Day5 file"
+        printfn "Usage: Aoc.Day05 file"
         1

@@ -86,5 +86,5 @@ let main argv =
 
         0
     | _ ->
-        printfn "Usage: Aoc.Day2 file"
+        printfn "Usage: Aoc.Day02 file"
         1

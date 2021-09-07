@@ -63,5 +63,5 @@ let main argv =
             printfn "Error - cannot parse input"
         0
     | _ ->
-        printfn "Usage: Aoc.Day4 file"
+        printfn "Usage: Aoc.Day04 file"
         1

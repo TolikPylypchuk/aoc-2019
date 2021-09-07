@@ -29,5 +29,5 @@ let main argv =
         printfn "%d" (input |> List.sumBy fuel2)
         0
     | _ ->
-        printfn "Usage: Aoc.Day1 file"
+        printfn "Usage: Aoc.Day01 file"
         1

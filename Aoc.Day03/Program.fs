@@ -130,5 +130,5 @@ let main argv =
                 printfn "Error - no intersections"
         0
     | _ ->
-        printfn "Usage: Aoc.Day3 file"
+        printfn "Usage: Aoc.Day03 file"
         1
