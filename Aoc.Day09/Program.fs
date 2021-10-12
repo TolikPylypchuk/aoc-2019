@@ -232,7 +232,7 @@ let getInput file =
 
 let initialState input =
     { InstructionPointer = zero; RelativeBase = zero; Input = input; Output = []; IsPaused = false; IsHalted = false }
-    
+
 [<EntryPoint>]
 let main argv =
     match argv with
@@ -242,7 +242,7 @@ let main argv =
         memory
         |> execAndGetResult (initialState [ one ])
         |> List.iter (printfn "%O")
-        
+
         memory
         |> execAndGetResult (initialState [ two ])
         |> List.iter (printfn "%O")
