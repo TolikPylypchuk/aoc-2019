@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Aoc.Day14": {
+      "commandName": "Project",
+      "commandLineArgs": "input.txt"
+    }
+  }
+}
