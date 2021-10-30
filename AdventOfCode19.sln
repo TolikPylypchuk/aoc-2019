@@ -10,7 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		global.json = global.json
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
@@ -41,7 +40,7 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc.Day13", "Aoc.Day13\Aoc.
 EndProject
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc.Day14", "Aoc.Day14\Aoc.Day14.fsproj", "{405947CB-3EEB-4987-863C-9CFCA335D68D}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Aoc.Day15", "Aoc.Day15\Aoc.Day15.fsproj", "{2753E4BF-7B1A-4820-8917-BA7218BD9149}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Aoc.Day15", "Aoc.Day15\Aoc.Day15.fsproj", "{2753E4BF-7B1A-4820-8917-BA7218BD9149}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
