@@ -184,7 +184,7 @@ let execStep memory = monad {
         let param1 = memory |> getParameter (state.InstructionPointer + one) mode1
         let param2 = memory |> getParameter (state.InstructionPointer + two) mode2
         let target = memory |> get (state.InstructionPointer + three)
-        
+
         memory |> set mode target (if op param1 param2 then one else zero)
 
     if state.IsHalted || state.IsPaused then
@@ -491,7 +491,7 @@ let main argv =
                 |> Seq.map int
                 |> Seq.map bigint
                 |> Seq.toList
-                
+
             let _, state = State.run (memory |> enableRobot |> exec) { initialState with Input = input }
 
             state.Output
@@ -504,4 +504,3 @@ let main argv =
     | _ ->
         printfn "Usage: Aoc.Day17 file"
         1
-
